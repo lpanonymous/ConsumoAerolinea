@@ -51,5 +51,125 @@
         </ul>
       </div>
 </nav>
+
+<div class="row" >
+        <div class="col-sm-12">
+        <div class="card text-white bg-dark mb-6" style="opacity:0.9">
+        <div class="card-header">Registrar vuelo</div>
+        <div class="card-body">
+        <form action="../controllers/updateflight.php" method="post">
+
+        <div class="form-row">
+          <div class="form-row">
+          <div class="form-group col-md-2">
+              <label for="inputCity">Id</label>
+              <input type="number" class="form-control" id="inputCity" name="id">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputCity">Aerolinea</label>
+              <input type="text" class="form-control" id="inputCity" name="aerolinea">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Codigo de avion</label>
+              <input type="text" class="form-control" id="inputZip" name="codigo_avion">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Fecha de salida</label>
+              <input type="date" class="form-control" id="inputZip" name="fecha_salida">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Hora de salida</label>
+              <input type="text" class="form-control" id="inputZip" name="hora_salida">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Hora de llegada</label>
+              <input type="text" class="form-control" id="inputZip" name="hora_llegada">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">País origen</label>
+              <input type="text" class="form-control" id="inputZip" name="pais_origen">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Pais destino</label>
+              <input type="text" class="form-control" id="inputZip" name="pais_destino">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Ciudad origen</label>
+              <input type="text" class="form-control" id="inputZip" name="ciudad_origen">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Ciudad destino</label>
+              <input type="text" class="form-control" id="inputZip" name="ciudad_destino">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Precio tarifa basica</label>
+              <input type="number" class="form-control" id="inputZip" name="precio_tb">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Precio tarifa clasica</label>
+              <input type="number" class="form-control" id="inputZip" name="precio_tc">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Precio tarifa amplus</label>
+              <input type="number" class="form-control" id="inputZip" name="precio_tamplus">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Precio tarifa flexible</label>
+              <input type="number" class="form-control" id="inputZip" name="precio_tf">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Precio tarifa premier</label>
+              <input type="number" class="form-control" id="inputZip" name="precio_tp">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Beneficios tarifa basica</label>
+              <input type="text" class="form-control" id="inputZip" name="beneficios_tb">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Beneficios tarifa clasica</label>
+              <input type="text" class="form-control" id="inputZip" name="beneficios_tc">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Beneficios tarifa amplus</label>
+              <input type="text" class="form-control" id="inputZip" name="beneficios_tamplus">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Beneficios tarifa flexible</label>
+              <input type="text" class="form-control" id="inputZip" name="beneficios_tf">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Beneficios tarifa premier.............</label>
+              <input type="text" class="form-control" id="inputZip" name="beneficios_tp">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Número de asientos tarifa basica</label>
+              <input type="number" class="form-control" id="inputZip" name="numero_atb">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Número de asientos tarifa clasica</label>
+              <input type="number" class="form-control" id="inputZip" name="numero_atc">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Número de asientos tarifa amplus</label>
+              <input type="number" class="form-control" id="inputZip" name="numero_atamplus">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Número de asientos tarifa flexible</label>
+              <input type="number" class="form-control" id="inputZip" name="numero_atf">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Número de asientos tarifa premier</label>
+              <input type="number" class="form-control" id="inputZip" name="numero_atp">
+            </div>
+              
+            <button type="submit" class="btn btn-primary">Actualizar</button>
+          
+          </div>
+          
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
 </body>
 </html>
