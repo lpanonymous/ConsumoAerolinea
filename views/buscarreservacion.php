@@ -51,5 +51,25 @@
         </ul>
       </div>
 </nav>
+
+<div class="row" >
+        <div class="col-sm-2">
+        <div class="card text-white bg-dark mb-6" style="opacity:0.9">
+        <div class="card-body">
+        <form action="../controllers/showreservation.php" method="post">
+
+        <div class="form-row">
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputCity">Ingresa el id de la reservación a buscar</label>
+              <input type="number" class="form-control" id="inputCity" name="id">
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</div>
 </body>
 </html>
