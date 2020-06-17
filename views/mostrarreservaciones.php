@@ -51,5 +51,51 @@
         </ul>
       </div>
 </nav>
+
+<?php
+    $client = new SoapClient("http://localhost:8080/ws/aerolinea.wsdl");
+
+    try
+    {
+      $response = $client->__soapCall("DisplayAllReservation", array());
+      $respuesta = array_values($response->{'datos'});
+      print "<div id='table' class='table-responsive-sm'>";
+      print "<table class='table table-dark' border='1' style='width:auto; height:20px; position: absolute;
+      left: 12.5%;
+      top: 30%; opacity:0.9;
+      '>";
+      print "<thead>
+      <tr align='center'>
+        <th scope='col'>Id de reservación</th>
+        <th scope='col'>Id de vuelo</th>
+        <th scope='col'>Nombre del cliente</th>
+        <th scope='col'>Número de tarjeta</th>
+        <th scope='col'>Fecha de vencimiento</th>
+        <th scope='col'>Código cvc</th>
+        <th scope='col'>Cantidad</th>
+      </tr>
+    </thead>";
+     print "<tbody>";
+      foreach($respuesta as $key => $value)
+      {
+          print "<tr><td>". $value->{'id'} . 
+          "</td><td>" . $value->{'id_vuelo'} . 
+          "</td><td>" . $value->{'nombre_cliente'} . 
+          "</td><td>" . $value->{'numero_tarjeta'} . 
+          "</td><td>" . $value->{'fecha_vencimiento'} .
+          "</td><td>" . $value->{'codigo_cvc'} .
+          "</td><td>" . $value->{'cantidad'} . 
+          "</tr></td>";
+      }
+      print "</tbody>";
+      print "</table>";
+      print "</div>";
+    }
+    catch (SoapFault $exception) 
+    {
+        echo $exception;      
+    }
+?>
+
 </body>
 </html>
