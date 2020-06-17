@@ -51,5 +51,48 @@
         </ul>
       </div>
 </nav>
+<?php
+    $client = new SoapClient("http://localhost:8080/ws/aerolinea.wsdl");
+
+    try
+    {
+      $response = $client->__soapCall("DisplayAllFlight", array());
+      $respuesta = array_values($response->{'datos'});
+      print "<div id='table' class='table-responsive-sm'>";
+      print "<table class='table table-dark' border='1' style='width:auto; height:20px; position: absolute;
+      left: 12.5%;
+      top: 30%; opacity:0.9;
+      '>";
+      print "<thead>
+      <tr align='center'>
+        <th scope='col'>Id</th>
+        <th scope='col'>Hora de salida</th>
+        <th scope='col'>Hora de llegada</th>
+        <th scope='col'>Ciudad origen </th>
+        <th scope='col'>Ciudad destino </th>
+      </tr>
+    </thead>";
+     print "<tbody>";
+      foreach($respuesta as $key => $value)
+      {
+          print "<tr><td>". $value->{'id'} . 
+          "</td><td>" . $value->{'hora_salida'} . 
+          "</td><td>" . $value->{'hora_llegada'} . 
+          "</td><td>" . $value->{'ciudad_origen'} . 
+          "</td><td>" . $value->{'ciudad_destino'} . 
+          "</tr></td>";
+      }
+      print "</tbody>";
+      print "</table>";
+      print "</div>";
+    }
+    catch (SoapFault $exception) 
+    {
+        echo $exception;      
+    }
+?>
+
+
+
 </body>
 </html>
