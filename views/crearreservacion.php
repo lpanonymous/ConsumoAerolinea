@@ -51,5 +51,50 @@
         </ul>
       </div>
 </nav>
+
+<div class="row" >
+        <div class="col-sm-12">
+        <div class="card text-white bg-dark mb-6" style="opacity:0.9">
+        <div class="card-header">Registrar reservación</div>
+        <div class="card-body">
+        <form action="../controllers/createreservation.php" method="post">
+
+        <div class="form-row">
+          <div class="form-row">
+            <div class="form-group col-md-2">
+              <label for="inputCity">Id de vuelo</label>
+              <input type="number" class="form-control" id="inputCity" name="id_vuelo">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Nombre de cliente</label>
+              <input type="text" class="form-control" id="inputZip" name="nombre_cliente">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Número de tarjeta</label>
+              <input type="number" class="form-control" id="inputZip" name="numero_tarjeta" value="3250000000000000" required min="3250000000000000" max="5499999999999999">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Fecha de vencimiento</label>
+              <input type="text" class="form-control" id="inputZip" name="fecha_vencimiento">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Código cvc</label>
+              <input type="number" class="form-control" id="inputZip" name="codigo cvc">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Cantidad</label>
+              <input type="number" class="form-control" id="inputZip" name="cantidad">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Guardar</button>
+          
+          </div>
+          
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
+
 </body>
 </html>
