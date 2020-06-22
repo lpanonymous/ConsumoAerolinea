@@ -14,5 +14,8 @@ Este repositorio tiene la finalidad de consumir el servicio web soap y rest de u
 3.-En la carpeta de xampp dentro de la carpeta htdocs ingresar el proyecto descomprimido.
 4.-En el navegador de su preferencia ingresar la siguiente dirección "http://localhost/ConsumoAerolinea/".
 5.-Y se desplegara la siguiente pagina.
+![alt text](https://github.com/lpanonymous/Aerolinea/blob/master/Cliente.JPG)
+
+
  
 
