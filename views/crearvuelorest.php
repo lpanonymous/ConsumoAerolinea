@@ -14,56 +14,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Actualizar vuelo</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Crear vuelo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="crearvuelo.php">Crear vuelo <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="buscarvuelorest.php">Buscar vuelo <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="buscarvuelo.php">Buscar vuelo <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="actualizarvuelorest.php">Actualizar vuelo<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="eliminarvuelo.php">Eliminar vuelo<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="mostrarvuelosrest.php">Mostrar vuelos<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="mostrarvuelos.php">Mostrar vuelos<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="crearreservacionrest.php">Crear reservación<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="crearreservacion.php">Crear reservación<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="buscarreservacionrest.php">Buscar reservación<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="buscarreservacion.php">Buscar reservación<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="actualizarreservacionrest.php">Actualizar reservación<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="actualizarreservacion.php">Actualizar reservación<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="eliminarreservacionrest.php">Eliminar reservacion<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="eliminarreservacion.php">Eliminar reservacion<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="mostrarreservacionesrest.php">Mostrar reservaciones<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="mostrarreservaciones.php">Mostrar reservaciones<span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
+    </ul>
+  </div>
 </nav>
 
 <div class="row" >
         <div class="col-sm-12">
         <div class="card text-white bg-dark mb-6" style="opacity:0.9">
+        <div class="card-header">Registrar vuelo</div>
         <div class="card-body">
-        <form action="../controllers/updateflight.php" method="post">
+        <form action="http://localhost:8080/crear-vuelo" method="post">
 
         <div class="form-row">
           <div class="form-row">
-          <div class="form-group col-md-2">
-              <label for="inputCity">Id</label>
-              <input type="number" class="form-control" id="inputCity" name="id">
-            </div>
             <div class="form-group col-md-2">
               <label for="inputCity">Aerolinea</label>
               <input type="text" class="form-control" id="inputCity" name="aerolinea">
@@ -160,8 +155,8 @@
               <label for="inputZip">Número de asientos tarifa premier</label>
               <input type="number" class="form-control" id="inputZip" name="numero_atp">
             </div>
-              
-            <button type="submit" class="btn btn-primary">Actualizar</button>
+            
+            <button type="submit" class="btn btn-primary">Guardar</button>
           
           </div>
           
@@ -170,5 +165,6 @@
         </div>
         </div>
         </div>
+
 </body>
 </html>

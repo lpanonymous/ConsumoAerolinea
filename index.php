@@ -15,13 +15,14 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Soap</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="views/crearvuelo.php">Crear vuelo <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="views/crearvuelo.php">Crear vuelo<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="views/buscarvuelo.php">Buscar vuelo <span class="sr-only">(current)</span></a>
@@ -52,6 +53,47 @@
           </li>
         </ul>
       </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Rest</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+            <a class="nav-link" href="views/crearvuelorest.php">Crear vuelo<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/buscarvuelorest.php">Buscar vuelo <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/actualizarvuelorest.php">Actualizar vuelo<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/eliminarvuelorest.php">Eliminar vuelo<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/mostrarvuelosrest.php">Mostrar vuelos<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/crearreservacionrest.php">Crear reservación<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/buscarreservacionrest.php">Buscar reservación<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/actualizarreservacionrest.php">Actualizar reservación<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/eliminarreservacionrest.php">Eliminar reservacion<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="views/mostrarreservacionesrest.php">Mostrar reservaciones<span class="sr-only">(current)</span></a>
+          </li>
+    </ul>
+  </div>
 </nav>
 </body>
 </html>
