@@ -21,7 +21,16 @@ Este repositorio tiene la finalidad de consumir el servicio web soap y rest de u
 ![alt text](https://github.com/lpanonymous/ConsumoAerolinea/blob/master/resources/index.JPG)
 
 ## Ejecutando las pruebas ⚙️
+```
+1.-Soap
+
 ![alt text](https://github.com/lpanonymous/ConsumoAerolinea/blob/master/resources/mostrarvuelos.JPG)
+
+![alt text](https://github.com/lpanonymous/ConsumoAerolinea/blob/master/resources/mostrarreservaciones.JPG)
+
+2.-Rest
+
+```
 
 
 
