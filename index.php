@@ -21,34 +21,34 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/crearvuelo.php">Crear vuelo<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/buscarvuelo.php">Buscar vuelo <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/actualizarvuelo.php">Actualizar vuelo<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/eliminarvuelo.php">Eliminar vuelo<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/mostrarvuelos.php">Mostrar vuelos<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/crearreservacion.php">Crear reservación<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/buscarreservacion.php">Buscar reservación<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/actualizarreservacion.php">Actualizar reservación<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/eliminarreservacion.php">Eliminar reservacion<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/mostrarreservaciones.php">Mostrar reservaciones<span class="sr-only">(current)</span></a>
           </li>
         </ul>
@@ -62,34 +62,34 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
+    <li class="nav-item">
             <a class="nav-link" href="views/crearvuelorest.php">Crear vuelo<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/buscarvuelorest.php">Buscar vuelo <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/actualizarvuelorest.php">Actualizar vuelo<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/eliminarvuelorest.php">Eliminar vuelo<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/mostrarvuelosrest.php">Mostrar vuelos<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/crearreservacionrest.php">Crear reservación<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/buscarreservacionrest.php">Buscar reservación<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/actualizarreservacionrest.php">Actualizar reservación<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/eliminarreservacionrest.php">Eliminar reservacion<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="views/mostrarreservacionesrest.php">Mostrar reservaciones<span class="sr-only">(current)</span></a>
           </li>
     </ul>
